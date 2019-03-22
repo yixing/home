@@ -1,3 +1,7 @@
+---
+typora-root-url: ../img
+---
+
 #std::move的应用
 
 ```c++
