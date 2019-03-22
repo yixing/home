@@ -20,7 +20,7 @@ yum --disablerepo=\* --enablerepo=elrepo-kernel repolist
 yum --disablerepo=\* --enablerepo=elrepo-kernel list kernel*
 ```
 
-![img](/Users/yixing/dev/yixing.github.io/img/k1-1024x412.png)
+![img](https://yixing.github.io/img/k1-1024x412.png)
 
 ```bash
 # 安装最新版本的kernel
@@ -28,7 +28,7 @@ yum --disablerepo=\* --enablerepo=elrepo-kernel install -y kernel-ml.x86_64
  
 #CentOS6 系统不再提供ml（主线）版本的kernel，只有lt（长期维护）版本4.4的内核
 ```
-![img](/Users/yixing/dev/yixing.github.io/img/k2-1024x551.png)
+![img](https://yixing.github.io/img/k2-1024x551.png)
 
 最后一步，需要将内核工具包一并升级
 
@@ -83,7 +83,7 @@ chmod +x shadowsocksR.sh .
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
 
-![img](/Users/yixing/dev/yixing.github.io/img/ssr.png)
+![img](https://yixing.github.io/img/ssr.png)
 
 配置完成后shadowsocks添加到启动列表
 
