@@ -88,5 +88,8 @@ chmod +x shadowsocksR.sh .
 配置完成后shadowsocks添加到启动列表
 
 ```bash
-`chkconfig --list`
+chkconfig --list
+netconsole      0:关 1:关 2:关 3:关 4:关 5:关 6:关
+network         0:关 1:关 2:开 3:开 4:开 5:开 6:关
+shadowsocks     0:关 1:关 2:开 3:开 4:开 5:开 6:关
 ```

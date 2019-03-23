@@ -21,11 +21,7 @@ private:
 };
  
 A g_a;
-```
 
-
-​         
-```c++
 void foo1(A a) { 
     std::cout << __PRETTY_FUNCTION__ << std::endl;
     g_a = std::move(a);
