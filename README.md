@@ -1,6 +1,4 @@
-# home
-
-index
+# index
 
 * [std::move的应用](http://yixing.github.io/blog/std__move的应用.html)
 * [QUIC demo安装笔记](http://yixing.github.io/blog/QUIC_demo安装笔记.html)
