@@ -83,10 +83,9 @@ sock->opts->sendmsg的函数指针指向 inet\_send\_msg，后者调用对应协
     }
 
     tcp_push(sk, flags, mss_now, tp->nonagle, size_goal);
-        tcp_write_xmit
 ```
 
-在tcp\_send\_msg中，主要做的事情是检查socket的状态，构造skb结构体，然后把数据在skb中组织起来，然后调用tcp\_push()，后者会对tcp的相关flags（MSG\_MORE, MSG\_OOB 带外标记）设置对应的header标记位比如 TCPHDR\_PSH，最终实际的操作交给 tcp\_write\_xmit
+在tcp\_send\_msg中，主要做的事情是检查socket的状态，构造skb结构体，然后把数据在skb中组织起来，然后调用tcp\_push()，后者会对tcp的相关flags（MSG\_MORE, MSG\_OOB 带外标记）设置对应的header标记位比如 TCPHDR\_PSH，最终实际的操作交给 tcp\_write\_xmit，调用顺序如下:
 
 ```
     tcp_push > __tcp_push_pending_frames > tcp_write_xmit
