@@ -5,3 +5,4 @@
 * [v8编译笔记](http://yixing.github.io/blog/v8编译笔记.html)
 * [std__move的应用](http://yixing.github.io/blog/std__move的应用.html)
 * [QUIC_demo安装笔记](http://yixing.github.io/blog/QUIC_demo安装笔记.html)
+* [系统知识](http://yixing.github.io/blog/i_system/)
