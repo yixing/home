@@ -1,6 +1,3 @@
-
-
-
 tcp 的发送流程图
 
 ![img](https://yixing.github.io/img/kernel-tcp.gif)
