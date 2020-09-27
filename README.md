@@ -11,7 +11,7 @@
 * [i_system/i_os/Heracles](http://yixing.github.io/blog/i_system/i_os/Heracles.html)
 * [i_system/i_os/ImplementationsOfLocks](http://yixing.github.io/blog/i_system/i_os/ImplementationsOfLocks.html)
 * [i_system/i_os/grub2](http://yixing.github.io/blog/i_system/i_os/grub2.html)
-* [leetcode/TwoSum](http://yixing.github.io/blog/leetcode/TwoSum.html)
+* [i_system/openssl](http://yixing.github.io/blog/i_system/openssl.html)
 * [ssr配置](http://yixing.github.io/blog/ssr配置.html)
 * [v8编译笔记](http://yixing.github.io/blog/v8编译笔记.html)
 * [关于_浏览器输入网址之后发生了什么](http://yixing.github.io/blog/关于_浏览器输入网址之后发生了什么.html)
